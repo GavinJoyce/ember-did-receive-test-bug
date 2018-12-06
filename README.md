@@ -1,7 +1,10 @@
 # did-receive
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This repo demonstrates an Ember.js issue when testing a component which mutates a property in the `didReceiveAttrs` component hook. The test added in https://github.com/GavinJoyce/ember-did-receive-test-bug/commit/157a0cdd3763510a44353750cb84462d0efe88f1 passes in 3.1, but fails in all versions from 3.2 to 3.5:
+
+<img width="750" alt="screen shot 2018-12-06 at 10 02 22" src="https://user-images.githubusercontent.com/2526/49577244-e9c39e00-f93e-11e8-8867-e436c21668b2.png">
+<img width="749" alt="screen shot 2018-12-06 at 10 02 29" src="https://user-images.githubusercontent.com/2526/49577250-ed572500-f93e-11e8-8eee-c346cc5be876.png">
+
 
 ## Prerequisites
 
