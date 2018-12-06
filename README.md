@@ -1,4 +1,6 @@
-# did-receive
+# ember-did-receive-test-bug
+
+ISSUE: https://github.com/emberjs/ember.js/pull/17266
 
 This repo demonstrates an Ember.js issue when testing a component which mutates a property in the `didReceiveAttrs` component hook. The test added in https://github.com/GavinJoyce/ember-did-receive-test-bug/commit/157a0cdd3763510a44353750cb84462d0efe88f1 passes in 3.1, but fails in all versions from 3.2 to 3.5:
 
